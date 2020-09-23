@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supermarket Inventory Management System Software Requirements Specification</title>
+    <link rel="stylesheet" type="text/css" href="/css/web_format.css">
+</head>
+<body>
+    <h1>Supermarket Inventory Management System Software Requirements Specification</h1>
+    <div class="menu">
+        <table>
+            <tr>
+                <td><p><a href="/html/index.html">Home</a></p></td>
+                <td><p><a href="/html/toc.html">Table of Contents</a></p></td>
+                <td><p><a href="/html/furtherReadings.html">Further Readings</a></p></td>
+                <td><p><a href="/html/references.html">References</a></p></td>
+                <td><p><a href="/html/page6.html">Next</a></p></td>
+                <td><p><a href="/html/page4.html">Previous</a></p></td>
+            </tr>
+        </table>
+    </div>
+    <div class="pages">
+        <table>
+            <tr>
+                <td class="active"><p><a href="/html/page1.html">Intro, Purpos, Doc Conventions</a></p></td>
+                <td><p><a href="/html/page2.html">Scope</a></p></td>
+                <td><p><a href="/html/page3.html">Overall Description, Product Perspective</a></p></td>
+                <td><p><a href="/html/page4.html">Operating Environment, Design Implementation Constraints, Assumptions and Dependencies</a></p></td>
+                <td><p><a href="/html/page5.html">System Features Login</a></p></td>
+                <td><p><a href="/html/page6.html">System Features Search</a></p></td>
+            </tr>
+        </table>
+    </div>
+    <div class="content">
+        <h2>System Features</h2>
+        <h3>Login</h3>
+        <h4>Description</h4>
+        <p>
+            &nbsp; &nbsp; &nbsp; The login screen will be the main control hub for granting access to key parts of the
+            system once completed. The login screen will pull information from an Employee table in the
+            database and compare the login credentials of the user to the credentials in the system. If the
+            credentials are valid then the user is granted access based on their credentials. For example, if a
+            manger logs in then the credentials would be validated, then access to the full system will be
+            granted to the manager. In the case of a warehouse attendant logging in, their credentials would
+            be validated and they would be granted access to search for an item in inventory.
+        </p>
+        <h4>Functional Requirements</h4>
+        <ol>
+            <li>Must be able to validate user credentials.</li>
+            <li>Must be able to direct to correct home screen when the users enters their login credentials.</li>
+            <li>Must provide feedback to teh user in the event their credentials are invalid.</li>
+            <li>Must provide feedback to user in the event that they did not enter a User ID.</li>
+            <li>Must provide feedback in the event teh user did not enter a Password.</li>
+            <li>Must provide feedback on successful login.</li>
+        </ol>
+        
+        <h4>Non-Functional Requirements</h4>
+        <ol>
+            <li>The text box for entering the user's password must utilize a mask to keep the password hidden.</li>
+            <li>The user should not need to type their position but rather select it using a combo box.</li>
+        </ol>
+    </div>
+    <br>
+    <div class="footer">
+        <p>&#169; Darius Ali &nbsp; &nbsp; Student ID: 70059 &nbsp; &nbsp; Email: darius.ali059@we.utt.edu.tt</p>
+        <p>Assignment 1 &nbsp; &nbsp; WEBP3001 &nbsp; &nbsp; Web Programming &nbsp; &nbsp; Lecturer: Emile Ramlal</p>
+    </div>
+</body>
+</html>

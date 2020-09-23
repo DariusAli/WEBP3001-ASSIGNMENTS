@@ -1,0 +1,112 @@
+/*controls the text font, size colour and background colour of the body of each html page*/
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    color:black;
+    background-color: aqua;
+}
+
+/*controls the description div area of the index page*/
+.description{
+    float: left;
+    padding: 20px 100px 130px 100px;
+    background-color: grey;
+}
+
+/*controls and formats the content div area of pages 1 to 6*/
+.content{
+    float: left;
+    padding: 20px 100px 20px 100px;
+    background-color: grey;
+}
+
+/*formats all text in h1 tags to be aligned to the center of the page*/
+h1{
+    text-align: center;
+}
+
+/*sets the footer div of all the pages to occupy the entire bottom of each page
+and the text to be aligned to the center*/
+.footer{
+    text-align: center;
+    width: 100%;
+}
+
+/*sets the text of the menu div to be aligned to the center of the menu*/
+.menu{
+    text-align: center;
+}
+
+/*sets each element in the menu to have an even width*/
+.menu td{
+    width: 16.666%;
+}
+
+/*sets the text of the pages div to be aligned to the center of the menu*/
+.pages{
+    text-align: center;
+}
+
+/*sets each element in the pages menu to have an even width*/
+.pages td{
+    width: 16.666%;
+}
+
+/*fomats the tables on all the pages to have their text aligned at the center
+with the width of the table occupying the width of the screen and a background colour of silver*/
+table{
+    text-align: center;
+    width: 100%;
+    background-color: silver;
+}
+
+/*formats the text and area of the Table of Contents in the toc.html page*/
+.ToC{
+    float: left;
+    text-align: center;
+    padding: 20px 40% 10px 40%;
+    background-color: grey;
+}
+
+/*formats the list items in the table of contents that when the mouse
+hovers over an item it shows a background colour of purple with white text*/
+.ToC li a:hover{
+    background-color: purple;
+    color: white;
+}
+
+/*formats the coloumns of the tables to have a text colour of black*/
+td a{
+    color: black;
+}
+
+/*when the cursor hovers over an item in the menu the background colour would be purple 
+with the text being white*/
+td a:hover{
+    background-color: purple;
+    color: white;
+}
+
+/*makes the active page in the menu display a lightseagreen background when the page is displayed*/
+.active{
+    background-color: lightseagreen;
+}
+
+/*formats the unordered list and its list items to have a black text*/
+ul, li{
+    color: black;
+}
+
+/*formats the body of the further readings page*/
+.FR_content{
+    float: left;
+    background-color: grey;
+    padding: 20px 400px 150px 400px;
+}
+
+/*formats the body of the references page*/
+.references_content{
+    float: left;
+    background-color: grey;
+    padding: 20px 200px 150px 300px;
+}
